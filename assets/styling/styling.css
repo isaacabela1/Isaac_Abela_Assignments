@@ -1,11 +1,44 @@
-.container h1{
-    font-size: 900%;
-    font-family: 'Walkway Expand Black', sans-serif;
+@font-face {
+    font-family: walkwayExBold;
+    src: url(../fonts/Walkway\ Expand\ Bold.ttf);
 }
-@font-face {  
-    font-family: 'Walkway Expand Black';
-    src: url(assets/fonts/WalkwayExpand-Black.ttf) format('truetype');
-        }
-.navbar{
-    font-family: 'Walkway Expand Black', sans-serif;
+@font-face {
+    font-family: walkwayObBlack;
+    src: url(../fonts/Walkway\ Oblique\ Black.ttf);
+}
+
+
+.container h1 {
+    font-size: 1159%;
+    font-family: walkwayObBlack;
+    color: #F87A0B;
+}
+
+.navbar {
+    font-family: walkwayExBold;
+}
+
+.nav-link {
+    color: #A28469;
+}
+.nav-link:hover {
+    color: #F87A0B;
+}
+
+.logo{
+    height: 20px;
+    width: auto;
+}
+
+.navbar-brand{
+    padding-top: 0px;
+    font-size: 0%;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.nav-underline {
+gap: var(--bs-nav-underline-gap);
 }
