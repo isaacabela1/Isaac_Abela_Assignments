@@ -1,0 +1,11 @@
+.container h1{
+    font-size: 900%;
+    font-family: 'Walkway Expand Black', sans-serif;
+}
+@font-face {  
+    font-family: 'Walkway Expand Black';
+    src: url(assets/fonts/WalkwayExpand-Black.ttf) format('truetype');
+        }
+.navbar{
+    font-family: 'Walkway Expand Black', sans-serif;
+}
