@@ -42,3 +42,64 @@
 .nav-underline {
 gap: var(--bs-nav-underline-gap);
 }
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, white, #F87A0B);
+}
+
+.movie-carousel {
+    display: flex;
+    gap: 40px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    padding: 30px;
+
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+}
+
+.movie-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-card {
+    flex: 0 0 auto;
+
+    width: 320px;
+
+    text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.04);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 470px;
+
+    object-fit: cover;
+
+    border-radius: 40px;
+
+    display: block;
+}
+
+.movie-card h3 {
+    margin-top: 18px;
+
+    font-size: 2rem;
+    font-weight: 300;
+
+    color: white;
+}
+
+.card{
+    bs-card-border-color: transparent;
+}
