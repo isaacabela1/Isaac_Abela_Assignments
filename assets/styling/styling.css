@@ -7,7 +7,9 @@
     src: url(../fonts/Walkway\ Oblique\ Black.ttf);
 }
 
-
+.nav{
+    margin-bottom: 30px;
+}
 .container h1 {
     font-size: 1159%;
     font-family: walkwayObBlack;
@@ -61,7 +63,6 @@ body {
 .movie-card img {
     width: 100%;
     height: 470px;
-    border-radius: 40px;
 }
 
 .card{
@@ -81,10 +82,12 @@ body {
 .poster{
     border-radius: 40px;
     width: 100%;
-    max-width: 320px;
+    max-width: 420px;
 }
 
-
+.movie-info{
+    font-family: walkwayOBBlack;
+}
 .age-tag{
     background: #ff7a00;
     color: white;
@@ -102,6 +105,7 @@ body {
 .director-name{
     margin-bottom: 10px;
     font-family: WalkwayObBlack;
+    margin-top: 50px;
 }
 
 .movie-description{
@@ -110,16 +114,11 @@ body {
     font-family: WalkwayExBold;
 }
 
-.trailer-box{
-    background: black;
-    border-radius: 30px;
-    overflow: hidden;
-}
 
 .cast-img{
     border-radius: 25px;
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -135,6 +134,7 @@ body {
 
 h3{
     font-family: walkwayObBlack;
+    margin-top: 70px;
 }
 
 .container-fluid{
@@ -145,3 +145,20 @@ h3{
     margin-right: 50px;
 }
 
+.card-img-top{
+    border-radius: 30px;
+}
+
+.trailer-container {
+    position: absolute;
+    top: 270px;
+    right: 240px;
+    width: 420px;
+}
+
+.trailer-video {
+    width: 100%;
+    height: 240px;
+    border: none;
+    border-radius: 20px;
+}
