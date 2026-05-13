@@ -8,9 +8,7 @@
 }
 
 
-.nav{
-    margin-bottom: 0px;
-}
+
 .container h1 {
     font-size: 1159%;
     font-family: walkwayObBlack;
@@ -29,14 +27,11 @@
 }
 
 .logo{
-    height: 20px;
+    height: 30px;
     width: auto;
+
 }
 
-.navbar-brand{
-    padding-top: 0px;
-    font-size: 0%;
-}
 
 body {
     min-height: 100vh;
@@ -80,6 +75,7 @@ body {
     color: #F87A0B;
     font-size: 6rem;
     margin-bottom: 20px;
+    padding-left: 40px;
 }
 
 .poster{
@@ -89,9 +85,7 @@ body {
     height: auto;
 }
 
-.movie-info{
-    font-family: walkwayOBBlack;
-}
+
 .age-tag{
     background: #ff7a00;
     color: white;
@@ -113,7 +107,7 @@ body {
 }
 
 .movie-description{
-    max-width: 500px;
+    max-width: 800px;
     line-height: 1.5;
     font-family: WalkwayExBold;
     margin-bottom: 30px;
@@ -123,7 +117,7 @@ body {
 .cast-img{
     border-radius: 25px;
     width: 90%;
-    height: 250px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -145,38 +139,31 @@ h3{
     font-family: walkwayObBlack;
 }
 
-.container-fluid{
-    margin-left: 0px;
-}
+
 
 
 .g-4, .gy-4{
     --bs-gutter-y:0.5rem;
 }
-.col-lg-5{
-    margin-right: 50px;
-}
+
 
 .card-img-top{
     border-radius: 30px;
 }
 
-.trailer-container {
-    position: absolute;
-}
+
 
 .trailer-video {
     width: 80%;
-    height: 80%;
+    height: 440px;
     border: none;
     border-radius: 20px;
 }
 
 
 .cast-title{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 p{
@@ -186,6 +173,7 @@ p{
     margin-right: 0px;
 }
 
-.row{
-    padding: 20px;
+.row-padding{
+    padding: 30px;
 }
+
