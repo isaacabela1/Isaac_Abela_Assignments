@@ -49,11 +49,25 @@ body {
     scrollbar-color: #ffffff transparent;
 }
 
-
 .movie-card {
     flex: 0 0 auto;
     width: 320px;
     text-align: center;
+}
+
+.about-title{
+    font-family: walkwayObBlack;
+    color: #F87A0B;
+    font-size: 8rem;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+.btn-primary {
+    font-family: walkwayExBold;
+    float: right;
+    background-color: #3103e8;
+    border: none;
+    margin-right: 19px;
 }
 
 
@@ -69,6 +83,7 @@ body {
     font-family: WalkwayExBold;
     font-size: clamp(2.5rem, 6vw, 6rem);
 }
+
 
 .movie-title{
     font-family: WalkwayObBlack;
@@ -147,12 +162,17 @@ h3{
     --bs-gutter-y:0.5rem;
 }
 
-
+.col-6{
+    padding: 20px;
+}
 .card-img-top{
     border-radius: 30px;
 }
 
-
+.img-container{
+    width: 100%;
+    border-radius: 30px;
+}
 
 .trailer-video {
     width: 80%;
@@ -168,7 +188,6 @@ h3{
 }
 
 p{
-    margin-bottom: 0px;
     font-family: walkwayExBold;
 }
 .col-lg-5{
@@ -179,3 +198,11 @@ p{
     padding: 30px;
 }
 
+.form-row{
+    font-family: walkwayExBold;
+}
+
+.form-group{
+    padding: 20px;
+    font-family: walkwayExBold;
+}
