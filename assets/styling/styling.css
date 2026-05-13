@@ -64,6 +64,7 @@ body {
     background-color: #3103e8;
     border: none;
     margin-right: 19px;
+    margin-bottom: 40px;
 }
 
 
@@ -174,7 +175,7 @@ h3{
 
 .cast-title{
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 p{
@@ -273,4 +274,8 @@ p{
 
 .col-3{
     width:25%;
+}
+
+.contact-wrapper{
+    padding-bottom: 50px;
 }
