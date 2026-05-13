@@ -125,7 +125,8 @@ body {
 .cast-card h5{
     font-size: 1.25rem;
     margin-top: 10px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    font-family: walkwayObBlack;
 }
 
 .cast-card p{
@@ -133,12 +134,12 @@ body {
     opacity: 0.7;
     margin-top: 0px;
     margin-bottom: 80px;
+    font-family: walkwayExBold;
 }
 
 h3{
     font-family: walkwayObBlack;
 }
-
 
 
 
@@ -168,6 +169,7 @@ h3{
 
 p{
     margin-bottom: 0px;
+    font-family: walkwayExBold;
 }
 .col-lg-5{
     margin-right: 0px;
