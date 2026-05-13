@@ -117,7 +117,7 @@ body {
 .cast-img{
     border-radius: 25px;
     width: 90%;
-    height: 450px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -155,7 +155,7 @@ h3{
 
 .trailer-video {
     width: 80%;
-    height: 440px;
+    height: 300px;
     border: none;
     border-radius: 20px;
 }
