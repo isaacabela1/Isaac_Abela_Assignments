@@ -121,7 +121,7 @@ body {
 .cast-img{
     border-radius: 25px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -175,6 +175,13 @@ h3{
     .cast-title {
         margin-top: 30px;
     }
+
+    .cast-img{
+    border-radius: 25px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 }
 
 .cast-title{
