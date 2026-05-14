@@ -25,6 +25,7 @@
     height: 30px;
     width: auto;
 
+
 }
 
 
@@ -278,4 +279,29 @@ p{
 
 .contact-wrapper{
     padding-bottom: 50px;
+}
+
+.btn-dark{
+    font-family: walkwayExBold;
+    border: none;
+    font-size: small;
+}
+
+.btn-success{
+    font-family: walkwayExBold;
+    background-color: #159b10;
+    font-size: small;
+}
+
+.img-act{
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.img-cvr{
+    width: 80%;
+    object-fit: cover;
+    border-radius: 30px;
 }

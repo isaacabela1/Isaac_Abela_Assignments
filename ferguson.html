@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalamet</title>
+    <link rel="stylesheet" href="assets/styling/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styling/styling.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <nav class="navbar px-3 py-1">
+        
+        <ul class="nav nav-underline w-100 align-items-center">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            
+            <a class="navbar-brand mx-auto logo" href="index.html">
+                <img src="assets/images/logo.svg" class="logo">
+            </a>
+            <li class="nav-item ">
+                <a class="nav-link" href="watchlist.html">Watchlist</a>
+            </li>
+            
+        </ul>
+        
+    </nav>
+    
+    <div class="container-fluid">
+        <h1 class="movie-title">Rebecca Ferguson</h1>
+        
+        <div class="row row-padding" >
+            <div class="col-lg-2">
+                <div class="poster-section">
+                    <img src="assets/images/actors/Rebecca_Ferguson_A_House_of_Dynamite-67_(cropped2).jpg" class="img-act">
+                </div>
+            </div>
+            
+            <div class="col-lg-5">
+                
+                <h2 class="director-name">
+                    Swedish actress
+                    
+                </h2>
+                
+                <p class="movie-description">
+                Rebecca Ferguson (born December 15, 1983) is a British-Swedish actress. She is known for her roles in films such as "Dune" (2021) and "Mission: Impossible – Fallout" (2018), as well as the television series "True Blood" and "The Last Kingdom".
+                </div>
+                
+                <div class="col-6 col-lg-5">
+                    <img src="assets/images/tim.webp" alt="timchalamet" class="img-cvr">
+                </div>
+                
+            </div>
+            <div class="row row-padding">
+                <div class="col-12">
+                    <h3 class="cast-title">Movies</h3>
+                    <div class="row g-4 mt-2">
+                        
+                        <div class="col-5 col-md-4 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/dune.jpg" class="img-fluid cast-img">
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/Dune2.jpg" class="img-fluid cast-img">
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/Fallout.jpg" class="img-fluid cast-img">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/MissionImp.jpg" class="img-fluid cast-img">
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/InfinityWar.jpg" class="img-fluid cast-img">
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-6 col-md-2 col-lg-2">
+                            <div class="cast-card">
+                                
+                                <img src="assets/images/Films/Iron_Man_3_poster.jpg" class="img-fluid cast-img">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <script>
+                    const watchlistBtn = document.getElementById("watchlistBtn");
+                    
+                    watchlistBtn.addEventListener("click", function () {
+                        if (watchlistBtn.textContent === "Add to Watchlist") {
+                            watchlistBtn.textContent = "Added to Watchlist";
+                            watchlistBtn.classList.remove("btn-dark");
+                            watchlistBtn.classList.add("btn-success");
+                        } else {
+                            watchlistBtn.textContent = "Add to Watchlist";
+                            watchlistBtn.classList.remove("btn-success");
+                            watchlistBtn.classList.add("btn-dark");
+                        }
+                    });
+                </script>
+                <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+            </body>
+            </html>

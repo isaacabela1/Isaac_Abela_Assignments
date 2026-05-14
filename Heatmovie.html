@@ -56,7 +56,7 @@
                     <div class="rating">
                         ⭐ 8.3/10
                     </div>
-                    
+                    <button id="watchlistBtn" class="btn btn-dark">Add to Watchlist</button>
                 </div>
                 
                 <h2 class="director-name">
@@ -147,6 +147,21 @@
                     </div>
                 </div>
             </div>
-            
+            <script>
+    const watchlistBtn = document.getElementById("watchlistBtn");
+
+    watchlistBtn.addEventListener("click", function () {
+        if (watchlistBtn.textContent === "Add to Watchlist") {
+            watchlistBtn.textContent = "Added to Watchlist";
+            watchlistBtn.classList.remove("btn-dark");
+            watchlistBtn.classList.add("btn-success");
+        } else {
+            watchlistBtn.textContent = "Add to Watchlist";
+            watchlistBtn.classList.remove("btn-success");
+            watchlistBtn.classList.add("btn-dark");
+        }
+    });
+</script>
+            <script src="assets/scripts/bootstrap.bundle.min.js"></script>
         </body>
         </html>
