@@ -36,47 +36,72 @@
         
     </nav>
     
-    <div class="container-fluid">
-        <h1 class="filmspage-title">My Watchlist</h1>
-        
-        <div class="row g-5">
-            <div class="col-6 col-md-4 col-lg-3">
+<div class="container-fluid">
+    <h1 class="filmspage-title">My Watchlist</h1>
+    
+    <div class="row g-5">
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="watchlist-film">
                 <a href="Michaelmovie.html">
                     <img src="assets/images/Films/michael.jpg" alt="michael" class="card-img-top img-film">
                 </a>
+                <button class="btn btn-danger remove-btn">Remove</button>
+            </div>
+
+            <div class="watchlist-film">
                 <a href="DunePartOne.html">
                     <img src="assets/images/Films/dune.jpg" alt="dune" class="card-img-top img-film">
-                    
                 </a>
-                
-                
+                <button class="btn btn-danger remove-btn">Remove</button>
             </div>
-            
-            <div class="col-6 col-md-4 col-lg-3">
-                
-                
+        </div>
+        
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="watchlist-film">
                 <a href="htlagi10d.html">
                     <img src="assets/images/Films/htlagi10d.jpg" alt="htlagi10d" class="card-img-top img-film">
                 </a>
+                <button class="btn btn-danger remove-btn">Remove</button>
+            </div>
+
+            <div class="watchlist-film">
                 <a href="sotl.html">
                     <img src="assets/images/Films/sotl.jpg" alt="sotl" class="card-img-top img-film">
                 </a>
+                <button class="btn btn-danger remove-btn">Remove</button>
             </div>
-            <div class="col-3">
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="watchlist-film">
                 <a href="ProjectHailMary.html">
-                    <img src="assets/images/Films/project.jpg" alt="dune" class="card-img-top img-film">
+                    <img src="assets/images/Films/project.jpg" alt="project hail mary" class="card-img-top img-film">
                 </a>
-                
-                
-                
-                
+                <button class="btn btn-danger remove-btn">Remove</button>
             </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="watchlist-film">
                 <a href="Heatmovie.html">
                     <img src="assets/images/Films/Heatposter.jpg" alt="heat" class="card-img-top img-film">
                 </a>
+                <button class="btn btn-danger remove-btn">Remove</button>
             </div>
         </div>
+
     </div>
+</div>
+
+<script>
+    const removeButtons = document.querySelectorAll(".remove-btn");
+
+    removeButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            const film = button.closest(".watchlist-film");
+            film.remove();
+        });
+    });
+</script>
 </body>

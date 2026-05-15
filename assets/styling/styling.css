@@ -7,15 +7,22 @@
     src: url(../fonts/Walkway\ Oblique\ Black.ttf);
 }
 
-
+.navbar-logo-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
 
 
 .navbar {
     font-family: walkwayExBold;
+    min-height: 70px;
 }
 
 .nav-link {
-    color: #A28469;
+    color: #000000;
+    font-size: large;
 }
 .nav-link:hover {
     color: #3103e8;
@@ -24,6 +31,12 @@
 .logo{
     height: 30px;
     width: auto;
+}
+
+.navbar-logo-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -50,9 +63,13 @@ body {
 
 }
 
+.card-body{
+    padding: 30px;
+}
 .movie-card img:hover{
         scale: calc(1.10);
-        transition: 0.10s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        box-shadow: #000000;
 }
 
 .about-title{
@@ -86,6 +103,19 @@ body {
     font-size: clamp(2.5rem, 6vw, 6rem);
 }
 
+.watchlist-film {
+    margin-bottom: 20px;
+}
+
+.remove-btn {
+    display: block;
+    margin: 12px auto 0;
+    width: 100%;
+    max-width: 190px;
+    font-family: walkwayExBold;
+    background-color: #000000;
+    border: none;
+}
 
 .movie-title{
     font-family: WalkwayObBlack;
@@ -93,6 +123,7 @@ body {
     font-size: 6rem;
     margin-bottom: 20px;
     padding-left: 40px;
+    text-align: center;
 }
 
 .poster{
@@ -108,13 +139,20 @@ body {
     color: white;
     padding: 8px 18px;
     border-radius: 15px;
+    font-family: walkwayExBold;
+    font-size: small;
 }
 
+.rating{
+    font-family: walkwayObBlack;
+}
 .genre-tag{
     background: #3103e8;
     color: white;
     padding: 8px 25px;
     border-radius: 15px;
+    font-family: walkwayExBold;
+    font-size: small;
 }
 
 .director-name{
@@ -199,7 +237,7 @@ p{
 }
 
 .form-group{
-    padding: 20px;
+    padding: 10px;
     font-family: walkwayExBold;
 }
 
@@ -208,7 +246,6 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
 }
 
 .contact-title{
@@ -235,7 +272,7 @@ p{
     border-radius: 20px;
     background-color: #ffffff;
     padding: 18px 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-family: walkwayExBold;
     font-size: 1rem;
 }
