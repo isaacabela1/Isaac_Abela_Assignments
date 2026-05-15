@@ -24,8 +24,6 @@
 .logo{
     height: 30px;
     width: auto;
-
-
 }
 
 
@@ -49,6 +47,12 @@ body {
     flex: 0 0 auto;
     width: 320px;
     text-align: center;
+
+}
+
+.movie-card img:hover{
+        scale: calc(1.10);
+        transition: 0.10s ease-in-out;
 }
 
 .about-title{
